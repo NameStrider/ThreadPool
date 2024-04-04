@@ -1,0 +1,15 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.237.133”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  test.c
+D:\桌面\VSProjects\ThreadPool\test.c(6,15): warning : conversion to ‘int’ from ‘pthread_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\桌面\VSProjects\ThreadPool\test.c(6,15): warning :   int selfId = pthread_self();
+D:\桌面\VSProjects\ThreadPool\test.c(6,15): warning :                ^~~~~~~~~~~~
+D:\桌面\VSProjects\ThreadPool\test.c(7,2): warning : implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+D:\桌面\VSProjects\ThreadPool\test.c(7,2): warning :   sleep(1);
+D:\桌面\VSProjects\ThreadPool\test.c(7,2): warning :   ^~~~~
+  正在链接对象
+  ThreadPool.vcxproj -> D:\桌面\VSProjects\ThreadPool\bin\x64\Debug\ThreadPool.out

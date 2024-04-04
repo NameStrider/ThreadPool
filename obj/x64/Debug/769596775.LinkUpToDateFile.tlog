@@ -1,0 +1,1 @@
+g++ -o "/home/strider/projects/ThreadPool/bin/x64/Debug/ThreadPool.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/strider/projects/ThreadPool/obj/x64/Debug/test.o /home/strider/projects/ThreadPool/obj/x64/Debug/ThreadPool.o -lpthread
